@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IZI</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../assets/css/style.css">
+</head>
+<body class="dark-theme">
+    <header>
+        <div class="site-title" id="site-title">IZI</div>
+        <button class="theme-toggle" id="theme-toggle">🌙</button>
+    </header>
+
+    <nav class="sidebar" id="sidebar">
+        <button id="menu-toggle">☰ Menu</button>
+        <ul id="menu-options" class="menu-options hidden">
+            <li><a href="./cores-combinacoes.html">Cores e Combinações</a></li>
+            <li><a href="./tipos-pecas.html">Tipos de Peças</a></li>
+            <li><a href="./dicas-maquiagem.html">Dicas de Maquiagem</a></li>
+            <li><a href="./penteados-acessorios.html">Penteados e Acessórios</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <h1>Bem-vindo ao IZI Blog</h1>
+        <p>Explore dicas de moda, maquiagem e penteados com elegância e delicadeza.</p>
+    </main>
+
+    <div id="disqus_thread"></div>
+    <script>
+    var disqus_config = function () {
+        this.page.url = window.location.href;
+        this.page.identifier = document.title;
+    };
+
+    (function() { 
+        var d = document, s = d.createElement('script');
+        s.src = 'https://your-disqus-shortname.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+    </script>
+    <noscript>Por favor, habilite JavaScript para ver os comentários.</noscript>
+
+    <script src="../assets/js/theme.js"></script>
+    <script src="../assets/js/menu.js"></script>
+</body>
+</html>

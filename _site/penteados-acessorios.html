@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Penteados e Acessórios - IZI Blog</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/assets/css/style.css">
+</head>
+<body class="dark-theme">
+    <header>
+        <div class="site-title" id="site-title">IZI</div>
+        <button class="theme-toggle" id="theme-toggle">🌙</button>
+    </header>
+
+    <nav class="sidebar" id="sidebar">
+        <button id="menu-toggle">☰ Menu</button>
+        <ul id="menu-options" class="menu-options hidden">
+            <li><a href="cores-combinacoes.html">Cores e Combinações</a></li>
+            <li><a href="tipos-pecas.html">Tipos de Peças</a></li>
+            <li><a href="dicas-maquiagem.html">Dicas de Maquiagem</a></li>
+            <li><a href="penteados-acessorios.html">Penteados e Acessórios</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <h1>Penteados e Acessórios para Completar o Look</h1>
+        <p>Descubra quais penteados e acessórios combinam melhor com o seu estilo.</p>
+        <div class="hairstyle-section">
+            <h2>Penteados para o Dia</h2>
+            <img src="assets/images/penteado-dia.png" alt="Penteado para o Dia">
+            <p>Penteados simples, como rabos de cavalo e coques baixos.</p>
+
+            <h2>Penteados para a Noite</h2>
+            <img src="assets/images/penteado-noite.png" alt="Penteado para a Noite">
+            <p>Penteados mais sofisticados, como tranças embutidas e coques altos.</p>
+        </div>
+
+        <div class="accessories-section">
+            <h2>Acessórios</h2>
+            <p>Escolha acessórios que complementem seu look, como brincos, colares e tiaras. Aposte em peças que valorizem sua beleza natural.</p>
+            <img src="assets/images/acessorios.png" alt="Acessórios">
+        </div>
+    </main>
+    
+    <div id="disqus_thread"></div>
+    <script>
+    var disqus_config = function () {
+        this.page.url = window.location.href;
+        this.page.identifier = document.title;
+    };
+
+    (function() { 
+        var d = document, s = d.createElement('script');
+        s.src = 'https://your-disqus-shortname.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+    </script>
+    <noscript>Por favor, habilite JavaScript para ver os comentários.</noscript>
+
+    <script src="/assets/js/theme.js"></script>
+    <script src="/assets/js/menu.js"></script>
+</body>
+</html>

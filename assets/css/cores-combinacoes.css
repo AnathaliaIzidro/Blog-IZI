@@ -1,0 +1,163 @@
+/* Global Styles */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #333;
+    color: #fff;
+}
+
+.site-title {
+    align-items: center;
+    margin: 10px;
+    font-size: 24px;
+    cursor: pointer;
+    transition: color 0.3s, font-size 0.3s;
+}
+
+.site-title:hover {
+    color: #f39c12;
+    font-size: 26px;
+}
+
+.theme-toggle {
+    background: none;
+    border: none;
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.sidebar {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    height: 100vh;
+    position: fixed;
+    left: 20px;
+    top: 0;
+    display: none;
+    width: 250px;
+}
+
+.menu-options {
+    list-style: none;
+    padding: 20px;
+}
+
+.menu-options li {
+    margin: 10px 0;
+}
+
+.menu-options li a {
+    text-decoration: none;
+    color: #fff;
+}
+
+main {
+    padding: 20px;
+    margin-left: 270px;
+}
+
+/* Dark Theme */
+body.dark-theme {
+    background-color: #121212;
+    color: #f4f4f4;
+}
+
+.sidebar.dark-theme {
+    background-color: #1c1c1c;
+}
+
+.theme-toggle.dark-theme {
+    color: #f4f4f4;
+}
+
+/* Light Theme */
+body.light-theme {
+    background-color: #fff;
+    color: #333;
+}
+
+.sidebar.light-theme {
+    background-color: #f0f0f0;
+}
+
+.theme-toggle.light-theme {
+    color: #333;
+}
+
+/* Scrollbar */
+body::-webkit-scrollbar {
+    width: 8px;
+}
+
+body::-webkit-scrollbar-thumb {
+    background-color: rgba(255, 255, 255, 0.6);
+    border-radius: 10px;
+}
+
+/* Responsive Menu */
+#menu-toggle {
+    cursor: pointer;
+}
+
+.menu-options.hidden {
+    display: none;
+}
+
+/* Page-specific Styles */
+.content {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.image-section img {
+    max-width: 100%;
+}
+
+.text-section {
+    width: 50%;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+ul li {
+    margin-bottom: 10px;
+}
+/* Estilos para a página de Cores e Combinações */
+.content {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.image-section {
+    width: 40%;
+}
+
+.text-section {
+    width: 55%;
+}
+
+ul li {
+    margin-bottom: 20px;
+}
+
+ul li img {
+    max-width: 100px;
+    margin-right: 10px;
+    vertical-align: middle;
+}

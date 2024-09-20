@@ -1,0 +1,15 @@
+/* Estilos para a página de Dicas de Maquiagem */
+.makeup-section {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+
+.makeup-section img {
+    max-width: 100%;
+    margin-bottom: 10px;
+}
+
+.makeup-section p {
+    margin-bottom: 15px;
+}

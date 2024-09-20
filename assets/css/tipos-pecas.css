@@ -1,0 +1,20 @@
+/* Estilos para a página de Tipos de Peças */
+.content {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.image-section img {
+    max-width: 100%;
+    border-radius: 8px;
+}
+
+.text-section {
+    width: 50%;
+    padding-left: 20px;
+}
+
+.text-section p {
+    margin-bottom: 15px;
+}

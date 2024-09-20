@@ -1,0 +1,13 @@
+/* Estilos para a página de Penteados e Acessórios */
+.hairstyle-section, .accessories-section {
+    padding: 20px;
+}
+
+.hairstyle-section img, .accessories-section img {
+    max-width: 100%;
+    margin-bottom: 10px;
+}
+
+.accessories-section p {
+    margin-top: 10px;
+}
